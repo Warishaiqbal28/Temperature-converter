@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4ace9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter {
+    background-color: rgb(221, 131, 214);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -30 30 20px rgb(221, 131, 214);
+    text-align: center;
+    border: 2px solid rgb(143, 6, 132);
+    margin: 12px 22px;
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgb(143, 6, 132);
+    border-radius: 5px;
+    width: 100px;
+    
+}
+
+select {
+    padding: 10px;
+    border: 1px solid rgb(143, 6, 132);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.result {
+    font-size: 18px;
+}
+
+.text-purple{
+    color: rgb(94, 5, 86);
+}
